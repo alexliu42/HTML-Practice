@@ -1,0 +1,40 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h1 {
+    font-size: 30px;
+    font-family:Palatino Linotype;
+}
+  
+h2 {
+    font-size: 20px;
+    font-style: italic;
+    font-family:Palatino Linotype;
+    
+}
+  
+h3 {
+    font-size: 20px;
+    margin-top:155px;
+    margin-bottom:20px;
+    font-style: italic;
+    font-family:Palatino Linotype;
+}
+
+p {
+    font-family:Palatino Linotype;  
+    width:700px;
+    
+}
+  
+img {
+    height: 300px;
+    width: 240px;
+    float: left;
+    margin: 5px;
+}
+  
+  
+  
+  

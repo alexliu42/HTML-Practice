@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8">
+        <title>List Examples</title>
+    </head>
+    <body>
+        <h1>List Examples</h1>
+        <a href="index.html">Lab 4</a>
+        <h2>Lorem Ipsum</h2>
+        <ol>
+            <li>Lorem ipsum dolor sit amet,</li>
+            <li>consectetur adipiscing elit.</li>
+            <li>Maecenas venenatis venenatis erat.
+                <ol>
+                    <li>Aenean in tellus a leo consectetur mollis.</li>
+                    <li>Etiam quis posuere ipsum.
+                        <ul>
+                            <li>Ut mi nisl, ornare ac aliquet vel, placerat id orci.</li>
+                            <li>Fusce vulputate lorem vitae dolor hendrerit congue</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li>Sed suscipit finibus mauris, non dapibus dolor dignissim vel.</li>
+            <li>
+                <ul>
+                    <li>Mauris lobortis libero vitae vulputate ullamcorper.</li>
+                    <li>Sed id luctus odio, quis porttitor est.</li>
+                    <li>Vivamus imperdiet enim feugiat quam fermentum lobortis.</li>
+                </ul>
+            </li>
+        </ol>
+        <h3>Sample Description List</h3>
+        <dl>
+            <dt>TCP</dt>
+            <dd>Transmission Control Protocol is a method (protocol) used along with the Internet Protocol</dd>
+            <dd>(IP) to send data in the form of message units, called packets, between computers over the</dd>
+            <dd>Internet.</dd>   
+            <dt>IP</dt>
+            <dd>Internet Protocol is the method or protocol by which data is sent from one computer to another</dd>
+            <dd>on the Internet. Each computer on the Internet is uniquely identified by an IP address.</dd>         
+        </dl>
+        <ol>
+            <li>Fruits
+                <ul>
+                    <li>Red
+                        <ol>
+                            <li>Strawberry</li>
+                            <li>Raspberry</li>
+                        </ol>
+                    </li>
+                    <li>Green
+                        <ol>
+                            <li>Cucumber</li>
+                            <li>Kiwi</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li>Vegetables
+                <ol>
+                    <li>Artichoke</li>
+                    <li>Asparagus</li>
+                </ol>
+            </li>
+        </ol>
+        <script>
+            function myFunction() {
+              alert("Thank you");
+            }
+            </script>
+        <form method="POST" action="/demo.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="emails">Email:</label><br>
+            <input type="email" id="emails" name="emails"><br><br>
+            <label for="urls">Url of your school:</label><br>
+            <input type="url" id="urls" name="urls"><br><br>
+            <label for="status">Choose your status:</label>
+            <select name="status" id="status">
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+            <p>Please select your program:</p>
+            <input type="radio" id="certificate" name="certificate" value="certificate" checked>
+            <label for="certificate">Certificate</label><br>
+            <input type="radio" id="diploma" name="diploma" value="diploma">
+            <label for="diploma">Diploma</label><br>
+            <input type="radio" id="degree" name="degree" value="degree">
+            <label for="degree">Degree</label><br><br>  
+
+            <input type="submit" value="Submit" onclick="myFunction()">
+            <input type="reset" value="Reset">
+          </form>
+          
+       
+        </body>
+</html>

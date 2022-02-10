@@ -1,0 +1,148 @@
+body { font-family:Verdana, Arial, sans-serif;
+    background-color: #E1CF91;
+}
+
+#wrapper {
+margin-left: 10%;
+margin-right:10%;
+margin-top: 2%;
+margin-bottom: 1%;
+box-shadow:2px 2px black;
+}
+
+header { 
+    background-color:#C09A6D;
+    color: #00005D; 
+    font-size: 2vw; 
+    padding: 10px 10px 10px 210px;
+    background-image: url(JavaJam/javajamlogo.jpg); 
+    background-repeat: no-repeat;
+    background-size: 191px 145px;
+    height: 125px;
+    
+}
+
+h1 { margin-bottom: 20px;
+    background-color: #C09A6D;
+    color:black;
+    padding-left: 20px;}
+    
+nav {           
+    font-weight:bold;
+    font-size: 22px;      
+    float:left;
+    background-color:#231814;
+    width: 176px;
+    padding-bottom: 504px;
+    padding-left: 15px;  
+    padding-top: 30px;
+    }
+
+nav li{
+    list-style-type: none;
+    padding-bottom: 15px;
+    
+}
+
+nav li a:link{
+    color:#fff2AC;
+}
+
+nav li a:visited{
+    color:#C09A6D;    
+}
+
+a {
+    text-decoration: none;    
+  }
+
+main {  
+    width: auto;
+    display: block; /* for Internet Explorer version 11 and below */    
+    background-color: #fff2AC;
+    color: #000000;
+    margin-left: 191px;
+    padding-bottom: 50px;
+}
+
+main>img{
+    width: 100%;
+    height: 325px;
+}
+
+.mainElement{
+    padding-left: 40px;
+}
+
+h2 { 
+    max-width: 500px;
+    font-size: 28px;
+    color:black; 
+     font-family: arial, sans-serif;
+}
+
+p{
+    max-width: 720px;
+}
+
+#menuList1{
+    max-width: 450px;
+  }
+  
+  
+#menuList2{
+    max-width: 450px;
+}
+
+.musicArtists > h3{
+    background-color: #C09A6D;
+    padding-left: 50px;
+    margin-left: -40px;
+    box-shadow:0px 1px #000000;
+    
+}
+
+.musicArtists{
+    padding-bottom: 150px;
+}
+.musicArtists > img{
+    float:left;
+    margin-left:120px;
+    margin-top:15px;
+}
+
+.musicArtists > p{
+    float:right;
+    margin-right:120px;
+    max-width: 400px;
+    }
+
+.firstSection {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+footer { 
+    font-size:75%;
+     text-align: center;
+     
+     clear: right;
+     background-color: #C09A6D; 
+}
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
